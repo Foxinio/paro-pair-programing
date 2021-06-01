@@ -3,13 +3,17 @@
 
 struct DayOfYearTestSuite {};
 
-TEST(DayOfYearTestSuite, dummyTest)
-{
-  ASSERT_TRUE(false);
-}
-
 TEST(DayOfYearTestSuite, January1stIsFitstDayOfYear)
 {
   ASSERT_EQ(dayOfYear(1, 1, 2020), 1);
 }
 
+TEST(DayOfYearTestSuite, MarchTest)
+{
+  ASSERT_EQ(dayOfYear(3, 7, 2019), 66);
+}
+
+TEST(DayOfYearTestSuite, MarchTestOddYear)
+{
+  ASSERT_EQ(dayOfYear(3, 7, 2020), 67);
+}

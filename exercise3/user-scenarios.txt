@@ -1,0 +1,7 @@
+AS player with 3 train stations, I can demand 1500 $ from visitors.
+
+AS player being in prison, I can pay 500 $ to get out or throw for dublet.
+
+AS a player with enough money, I can buy a house on field with no other players' houses.
+
+As a player who has get out of jail card, I can get out of it whenever I get to the prison.

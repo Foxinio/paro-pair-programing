@@ -1,0 +1,27 @@
+
+Test 1. throwing dublet three times in a row gets you to prison
+GIVEN having thrown 2 dublets in current turn
+WHEN I throw another dublet 
+THEN I go to prison
+
+Test 2. going over start pool
+GIVEN Not specified otherwise
+WHEN I go over or land on start pool
+THEN I get 2000 $
+
+Test 3. geting out of prison
+GIVEN Me being in prison
+AND not paying for 2 turns
+WHEN i dont get dublet for the third time
+THEN i have to pay 500 $ and get out of prison afterwards
+
+Test 4. Entrance to the field with free prison release.
+GIVEN Lack of.
+WHEN I entrance to the field with free prison release.
+THEN I get a card that protect me from going to jail.
+
+Test 5. seling house
+GIVEN Nothing
+WHEN I own a house
+THEN I can sell it for half price.
+
